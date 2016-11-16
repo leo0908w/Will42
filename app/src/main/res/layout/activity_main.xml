@@ -12,8 +12,10 @@
         android:layout_weight="4"
         >
         <Button
+            android:id="@+id/clear"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:onClick="clear"
             android:text="Clear"
             />
         <Button
@@ -35,6 +37,7 @@
     </LinearLayout>
 
     <com.org.iii.will04.MyView
+        android:id="@+id/myView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1"
